@@ -18,8 +18,8 @@ void print_alphabet_x10(void){
     char a, b;
     for (a = 0; a <= 10; a++){
         for (b = 'a'; b <= 'z'; b++){
-            printf("%c", b);
+            fputchar(b);
         }
-            printf("\n");
+            fputchar('\n');
     }
 }
